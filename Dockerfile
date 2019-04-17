@@ -7,7 +7,7 @@ RUN /usr/lib/docker-helpers/apt-setup && \
         wget && \
     /usr/lib/docker-helpers/apt-cleanup
 
-ENV GRADLE_VERSION 5.4
+ENV GRADLE_VERSION 5.0
 
 RUN wget -O /tmp/gradle.zip "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" && \
     cd /tmp && \
