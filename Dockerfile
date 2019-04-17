@@ -15,3 +15,5 @@ RUN wget -O /tmp/gradle.zip "https://services.gradle.org/distributions/gradle-${
     cd gradle && \
     mv * /opt/gradle && \
     rm -f /tmp/gradle.zip
+
+ENV PATH /opt/gradle/bin:/usr/bin:/bin:/usr/sbin:/sbin
