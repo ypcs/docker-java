@@ -3,7 +3,7 @@ FROM ypcs/java:jdk
 RUN /usr/lib/docker-helpers/apt-setup && \
     /usr/lib/docker-helpers/apt-upgrade && \
     apt-get --assume-yes install \
-        unzip
+        unzip \
         wget && \
     /usr/lib/docker-helpers/apt-cleanup
 
