@@ -1,4 +1,4 @@
-FROM ypcs/debian:buster
+FROM ypcs/java:latest
 
 RUN /usr/lib/docker-helpers/apt-setup && \
     /usr/lib/docker-helpers/apt-upgrade && \
